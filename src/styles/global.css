@@ -5,3 +5,7 @@ html {
     url("../assets/cursor.png") 19 13,
     auto;
 }
+
+p {
+  font-weight: 500;
+}
