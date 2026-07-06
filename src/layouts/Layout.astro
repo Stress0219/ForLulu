@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="/src/assets/bg.png">
+		<link href="/src/styles/global.css" rel="stylesheet">
+		<meta name="generator" content={Astro.generator} />
+		<title>Érase una vez</title>
+	</head>
+	<body>
+		<slot />
+	</body>
+</html>
+
+<style>
+	html,
+	body {
+		margin: 0;
+		padding: 0;
+  		background-image: url("../assets/bg.png");
+  		background-position: center;
+  		background-repeat: no-repeat;
+  		background-attachment: fixed; 
+		font-family: "Edu AU VIC WA NT Guides", cursive;
+		user-select: none;
+		overflow-x: hidden;
+		background-color: beige;
+	}
+</style>
